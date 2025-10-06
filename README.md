@@ -21,15 +21,15 @@ Each concept is implemented in a **separate Python file** for clarity and easy t
 
 ## 🗂 Folder Structure
 
-code/
-│
-├── blurring.py # Apply different blurring filters (Gaussian, Median, etc.)
-├── color_spaces.py # Convert between color spaces (BGR, RGB, HSV, GRAY)
-├── drawing.py # Draw lines, circles, rectangles, and text
-├── edge_detection.py # Detect edges using Canny and Sobel operators
-├── image.py # Load, display, and save images
-├── image_resizing.py # Resize, crop, and scale images
-├── object_detection.py # Detect objects using thresholding and contours
-├── threshold.py # Apply binary and adaptive thresholding
-├── video.py # Read and process videos frame by frame
-└── webcam.py # Capture and process real-time webcam input 
+code:
+
+-blurring.py # Apply different blurring filters (Gaussian, Median, etc.)
+- color_spaces.py # Convert between color spaces (BGR, RGB, HSV, GRAY)
+-  drawing.py # Draw lines, circles, rectangles, and text
+- edge_detection.py # Detect edges using Canny and Sobel operators
+-  image.py # Load, display, and save images
+- image_resizing.py # Resize, crop, and scale images
+- object_detection.py # Detect objects using thresholding and contours
+- threshold.py # Apply binary and adaptive thresholding
+- video.py # Read and process videos frame by frame
+- webcam.py # Capture and process real-time webcam input 
